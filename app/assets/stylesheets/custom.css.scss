@@ -24,3 +24,11 @@
 .logout-button {
     margin-right: 5px;
 } 
+.search-area .row .no-left-padding button.btn-success{
+	border-radius: 0 10px 10px 0;
+}
+
+.search-area .row .no-right-padding .form-control-md
+{
+	border-radius: 10px 0 0 10px;
+}
