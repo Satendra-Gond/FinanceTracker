@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'my_portfolio', to: 'users#my_portfolio'
   devise_for :users
   root 'welcome#index'
+  get 'my_friends', to: 'users#my_friends'
 end
